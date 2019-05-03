@@ -3,7 +3,9 @@
 <html>
 <body>
 
-<?php header( 'Location: /video.html' ) ;  ?>
+<?php  echo "iei";  ?>
+<a href='./video.html'>video</a>
+<a href='./recipe.html'>recipe</a>
 
 
 </body>
