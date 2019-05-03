@@ -3,7 +3,7 @@
 <html>
 <body>
 
-<?php  echo "iei";  ?>
+<?php  echo "";  ?>
 <a href='./video.html'>video</a>
 <a href='./recipe.html'>recipe</a>
 
