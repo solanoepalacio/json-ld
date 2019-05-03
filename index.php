@@ -3,7 +3,8 @@
 <html>
 <body>
 
-<?php header( 'Location: /recipe.html' ) ;  ?>
+<?php header( 'Location: /video.html' ) ;  ?>
+
 
 </body>
 </html>
