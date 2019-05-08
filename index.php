@@ -34,7 +34,7 @@
     <section>
         <p>Here you'll find a video about a fast car or something quite similar!</p>
         <p>
-            <a ref="./content-loaded.html">click here</a>
+            <a href="./content-loaded.html">click here</a>
             to see a diferent version of this video, in whih the pilots go nuts and race the cars on a spagheti road!
         </p>
     </section>
