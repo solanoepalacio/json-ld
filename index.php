@@ -33,10 +33,12 @@
     <h1>Fast Cars Discussion Forums and Videos:</h1>
     <section>
         <p>Here you'll find a video about a fast car or something quite similar!</p>
-        <p>
-            <a href="./content-loaded.html">click here</a>
-            to see a diferent version of this video, in whih the pilots go nuts and race the cars on a spagheti road!
-        </p>
+        <p>You can see slightly different forms to load the json-ld for this data by choosing of this list:</p>
+        <ul>
+            <li><a href="./content-loaded.html">After the content is loaded</a></li>
+            <li><a href="./timeout.html">After X time</a></li>
+            <li><a href="./no-transcript">Without a transcript</a></li>
+        </ul>
     </section>
     <section>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/WAbMnu55lys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
