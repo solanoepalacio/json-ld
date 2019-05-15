@@ -1,6 +1,6 @@
 <?php
     $viewName = 'Timeout con transcript';
-    $transcriptHTML = readfile('transcript.html');
+    $transcriptHTML = file_get_contents('transcript.html');
 ?>
 <html lang="en">
 <head>
