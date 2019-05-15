@@ -1,3 +1,6 @@
+<?php
+    $viewName = 'Estatico sin transcript'
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,25 +32,8 @@
     </script>
 </head>
 <body>
-    <h1>Fast Cars Discussion Forums and Videos:</h1>
-    <section>
-        <p>Here you'll find a video about a fast car or something quite similar!</p>
-        <p>
-            <a href="./content-loaded.html">click here</a>
-            to see a diferent version of this video, in whih the pilots go nuts and race the cars on a spagheti road!
-        </p>
-    </section>
-    <section>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/WAbMnu55lys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <h2>Top 10 FASTEST Cars in the World 2016</h2>
-        <div>
-            <h3>Description</h3>
-            <p>In this edition of top trends the top ten fastest cars of the 2016th year are presented to our lovely viewers</p>
-        </div>
-        <div>
-            <h3>This video was uploaded:</h3>
-            <p>2015-12-30</p>
-        </div>
-    </section>
+    <?php include 'page-header.php' ?>
+    <?php include 'menu.php' ?>
+    <?php include 'video.php' ?>
 </body>
 </html>
