@@ -49,7 +49,7 @@
             function insertVideoHtmlTranscript () {
               console.log('Adding Html Transcript');
               const transcript = document.createElement('div');
-              transcript.innerHTML = '<?php echo(String($transcriptHTML)); ?>';
+              transcript.innerHTML = '<?php $transcriptHTML; ?>';
               document.querySelector('body').insertBefore(transcript, body.lastChild);
             }
 
