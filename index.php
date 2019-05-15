@@ -35,6 +35,6 @@
     <?php include 'page-header.php' ?>
     <?php include 'menu.php' ?>
     <?php include 'video.php' ?>
-    <?php include 'transcript.php' ?>
+    <?php include 'transcript.html' ?>
 </body>
 </html>
