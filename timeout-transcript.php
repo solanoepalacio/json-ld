@@ -50,7 +50,7 @@
               console.log('Adding Html Transcript');
               const transcript = document.createElement('div');
               transcript.innerHTML = <?php echo($transcriptHTML); ?>
-              document.querySelector('body').appendChild(transcript);
+              document.querySelector('body').insertBefore(transcript, body.lastChild);
             }
 
             window.addEventListener('DOMContentLoaded', (event) => {
