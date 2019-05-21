@@ -1,16 +1,17 @@
 <?php
-    $viewName = 'Timeout sin transcript'
+    $viewName = 'Timeout con transcript';
+    $transcriptHTML = file_get_contents('transcript.html');
 ?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <?php include 'page-title.php' ?>
+    <?php include 'includes/title.php' ?>
 
 </head>
 <body>
-    <?php include 'includes/page-header.php' ?>
+    <?php include 'includes/header.php' ?>
     <?php include 'includes/menu.php' ?>
     <?php include 'includes/video.php' ?>
     <script >
@@ -37,7 +38,7 @@
             }
 
             function insertVideoStructuredData () {
-                console.log('timeout expired, adding JSON-LD');
+                console.log('Adding JSON-LD');
                 const scriptElement = document.createElement('script')
                 scriptElement.setAttribute('type', 'application/ld+json');
                 scriptElement.innerHTML = JSON.stringify(structuredData);
@@ -45,9 +46,22 @@
                 console.log('Append Success');
             }
 
+            function insertVideoHtmlTranscript () {
+              console.log('Adding Html Transcript');
+              const transcript = document.createElement('div');
+              transcript.innerHTML = `<?php echo $transcriptHTML; ?>`;
+              const body = document.querySelector('body');
+              body.insertBefore(transcript, body.lastChild);
+            }
+
             window.addEventListener('DOMContentLoaded', (event) => {
-                console.log('the content has been loaded');
-                setTimeout(insertVideoStructuredData, 10000);
+                const timeoutms = 10000;
+                console.log('the content has been loaded. Setting timeout to', timeoutms);
+                setTimeout(() => {
+                  insertVideoStructuredData();
+                  insertVideoHtmlTranscript();
+                }, 10000)
+
             });
         </script>
 </body>
