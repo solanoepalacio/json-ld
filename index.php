@@ -32,9 +32,9 @@
     </script>
 </head>
 <body>
-    <?php include 'page-header.php' ?>
-    <?php include 'menu.php' ?>
-    <?php include 'video.php' ?>
-    <?php include 'transcript.html' ?>
+    <?php include 'includes/page-header.php' ?>
+    <?php include 'includes/menu.php' ?>
+    <?php include 'includes/video.php' ?>
+    <?php include 'includestranscript.html' ?>
 </body>
 </html>

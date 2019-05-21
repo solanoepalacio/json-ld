@@ -32,8 +32,8 @@
     </script>
 </head>
 <body>
-    <?php include 'page-header.php' ?>
-    <?php include 'menu.php' ?>
-    <?php include 'video.php' ?>
+    <?php include 'includes/page-header.php' ?>
+    <?php include 'includes/menu.php' ?>
+    <?php include 'includes/video.php' ?>
 </body>
 </html>

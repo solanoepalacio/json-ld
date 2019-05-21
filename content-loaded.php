@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <?php include 'page-title.php' ?>
+    <?php include 'includes/page-title.php' ?>
     <script type="application/ld+json">
         {
           "@context": "https://schema.org",
@@ -32,9 +32,9 @@
     </script>
 </head>
 <body>
-    <?php include 'page-header.php' ?>
-    <?php include 'menu.php' ?>
-    <?php include 'video.php' ?>
+    <?php include 'includes/page-header.php' ?>
+    <?php include 'includes/menu.php' ?>
+    <?php include 'includes/video.php' ?>
 
     <script >
             var structuredData = {
