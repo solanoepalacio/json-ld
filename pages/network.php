@@ -24,7 +24,7 @@
             body.insertBefore(transcript, body.lastChild);
         }
 
-        fetch('./json-ld-data')
+        fetch('./json-ld')
             .then((response) => response.text())
             .then((data) => {
                 console.log('data', data);

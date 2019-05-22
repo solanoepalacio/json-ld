@@ -2,13 +2,13 @@
     <p>Here you'll find a video about a fast car or something quite similar!</p>
     <p>You can see slightly different forms to load the json-ld for this data by choosing of this list:</p>
     <ul>
-        <li><a href="/pages/index.php" >Load a youtube embed video and json-ld statically</a></li>
+        <li><a href="/index.php" >Load a youtube embed video and json-ld statically</a></li>
         <li><a href="/pages/no-transcript.php" >Load the video and json-ld statically</a></li>
 
         <li><a href="/pages/content-loaded.php">Load the json-ld on dom content loaded</a></li>
         <li><a href="/pages/content-transcript-loaded.php">Load the json-ld & the transcript on dom content loaded</a></li>
 
-        <li><a href="/pagestimeout.php">Load the json-ld after 10 seconds with a timeout</a></li>
+        <li><a href="/pages/timeout.php">Load the json-ld after 10 seconds with a timeout</a></li>
         <li><a href="/pages/timeout-transcript.php">Load the json-ld & the transcript after 10 seconds with a timeout</a></li>
 
         <li><a href="/pages/network.php">Load json-ld using a network request</a></li>
