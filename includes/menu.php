@@ -4,11 +4,13 @@
     <ul>
         <li><a href="/pages/index.php" >Load a youtube embed video and json-ld statically</a></li>
         <li><a href="/pages/no-transcript.php" >Load the video and json-ld statically</a></li>
+
         <li><a href="/pages/content-loaded.php">Load the json-ld on dom content loaded</a></li>
         <li><a href="/pages/content-transcript-loaded.php">Load the json-ld & the transcript on dom content loaded</a></li>
+
         <li><a href="/pagestimeout.php">Load the json-ld after 10 seconds with a timeout</a></li>
         <li><a href="/pages/timeout-transcript.php">Load the json-ld & the transcript after 10 seconds with a timeout</a></li>
-        <!-- so far, so food -->
+
         <li><a href="/pages/network.php">Load json-ld using a network request</a></li>
         <li><a href="/pages/network-transcript.php">Load json-ld & the transcript using a network request</a></li>
 
