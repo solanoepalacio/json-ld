@@ -13,5 +13,15 @@
     <?php include './includes/header.php' ?>
     <?php include './includes/menu.php' ?>
     <?php include './includes/videojs-video.php' ?>
+
+    <script>
+        (function insertVideoHtmlTranscript () {
+            console.log('Adding Html Transcript');
+            const transcript = document.createElement('div');
+            transcript.innerHTML = `<?php echo $transcriptHTML; ?>`;
+            const body = document.querySelector('body');
+            body.insertBefore(transcript, body.lastChild);
+        })()
+    </script>
 </body>
 </html>
