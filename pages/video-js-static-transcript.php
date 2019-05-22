@@ -10,9 +10,9 @@
     <?php include '../includes/videojs-sources.php' ?>
 </head>
 <body>
-    <?php include './includes/header.php' ?>
-    <?php include './includes/menu.php' ?>
-    <?php include './includes/videojs-video.php' ?>
+    <?php include '../includes/header.php' ?>
+    <?php include '../includes/menu.php' ?>
+    <?php include '../includes/videojs-video.php' ?>
 
     <script>
         (function insertVideoHtmlTranscript () {

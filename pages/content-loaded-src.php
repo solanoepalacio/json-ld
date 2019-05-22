@@ -14,16 +14,16 @@
     <?php include '../includes/video.php' ?>
 
     <script >
-            window.addEventListener('DOMContentLoaded', (event) => {
-                console.log('the content has been loaded');
+        window.addEventListener('DOMContentLoaded', (event) => {
+            console.log('the content has been loaded');
 
-                const scriptElement = document.createElement('script')
-                scriptElement.setAttribute('type', 'application/ld+json');
-                scriptElement.setAttribute('src', 'assets/json-ld');
+            const scriptElement = document.createElement('script')
+            scriptElement.setAttribute('type', 'application/ld+json');
+            scriptElement.setAttribute('src', 'assets/json-ld');
 
-                document.querySelector('head').append(scriptElement);
-                console.log('Script element appended');
-            });
-        </script>
+            document.querySelector('head').append(scriptElement);
+            console.log('Script element appended');
+        });
+    </script>
 </body>
 </html>
