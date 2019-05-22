@@ -1,6 +1,6 @@
 <?php
     $viewName = 'JSON-LD loaded over network (no-transcript)';
-    $transcriptHTML = file_get_contents('includes/transcript.html');
+    $transcriptHTML = file_get_contents('/includes/transcript.html');
 ?>
 <html lang="en">
 <head>
