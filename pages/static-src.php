@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php include '../includes/title.php' ?>
-    <script src="/assets/json-ld" ></script>
+    <script src="/assets/json-ld" type="application/ld+json"></script>
 </head>
 <body>
     <?php include '../includes/header.php' ?>
