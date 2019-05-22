@@ -10,7 +10,7 @@
     <?php include '../includes/title.php' ?>
 </head>
 <body>
-    <?php include '..//includes/header.php' ?>
+    <?php include '../includes/header.php' ?>
     <?php include '../includes/menu.php' ?>
     <?php include '../includes/video.php' ?>
 
