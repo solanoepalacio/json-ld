@@ -2,7 +2,7 @@
     <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/watch?v=GlOETXrU-wQ"
+        src="https://www.youtube.com/embed/GlOETXrU-wQ?enablejsapi=23&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&color=white"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
