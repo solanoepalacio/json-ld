@@ -19,6 +19,7 @@
         <li><a href="/pages/content-loaded-src-transcript.php">Load json-ld and transcript adding a script element after dom content is loaded</a></li>
 
         <li><a href="/pages/vimeo-static.php">Load a Vimeo embed and json-ld statically</a></li>
+
         <li><a href="/pages/video-js-static.php">Load a video-js player embed and a json-ld statically</a></li>
 
         <li><a href="/pages/vwrap.php">Load the vwrap as is</a></li>
