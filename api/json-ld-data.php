@@ -4,6 +4,5 @@
 
 
     http_response_code(200);
-    $ld_data = file_get_contents('assets/json-ld.txt');
-    echo $ld_data;
+    echo file_get_contents('assets/json-ld.txt');;
 ?>
