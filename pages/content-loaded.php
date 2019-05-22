@@ -1,5 +1,5 @@
 <?php
-    $viewName = 'Content loaded (no-transcript)'
+    $viewName = '[Youtube] - Append to the dom on dom-content-loaded event'
 ?>
 <html lang="en">
 <head>

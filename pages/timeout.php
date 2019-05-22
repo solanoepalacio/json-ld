@@ -1,5 +1,5 @@
 <?php
-    $viewName = 'Timeout sin transcript'
+    $viewName = '[Youtube] - Loadafter 10 seconds with a timeout';
 ?>
 <html lang="en">
 <head>

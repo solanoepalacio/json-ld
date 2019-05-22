@@ -18,13 +18,14 @@
         <li><a href="/pages/static-src-transcript.php">[Youtube] - Load using an html script tag - with transcript</a></li>
 
         <li><a href="/pages/content-loaded-src.php">[Youtube] - Load using an html script tag after dom-content-loaded event</a></li>
-        <li><a href="/pages/content-loaded-src-transcript.php">[Youtube] - Load using an html script tag after dom-content-loaded event</a></li>
+        <li><a href="/pages/content-loaded-src-transcript.php">[Youtube] - Load using an html script tag after dom-content-loaded event - with transcript</a></li>
 
         <li><a href="/pages/vimeo-static.php">[VIMEO] - Load statically</a></li>
+        <li><a href="/pages/vimeo-static-transcript.php">[VIMEO] - Load statically - with transcript</a></li>
 
         <li><a href="/pages/video-js-static.php">[VIDEO - JS] Load statically</a></li>
         <li><a href="/pages/video-js-static-transcript.php">[VIDEO - JS] Load statically - with transcript</a></li>
 
-        <li><a href="/pages/vwrap.php">Load the vwrap as is</a></li>
+        <li><a href="/pages/vwrap.php">Load the vwrap as is + JSON-ld</a></li>
     </ul>
 </div>

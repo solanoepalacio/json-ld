@@ -1,5 +1,5 @@
 <?php
-    $viewName = 'Estatico sin transcript'
+    $viewName = '[Youtube] - Load statically'
 ?>
 <html lang="en">
 <head>

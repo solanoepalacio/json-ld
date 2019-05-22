@@ -1,5 +1,5 @@
 <?php
-    $viewName = 'JSON-LD loaded over network (with-transcript)';
+    $viewName = '[Youtube] - Load over a network request - with transcript';
     $transcriptHTML = file_get_contents('../includes/transcript.html');
 ?>
 <html lang="en">

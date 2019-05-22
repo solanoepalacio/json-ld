@@ -1,5 +1,5 @@
 <?php
-    $viewName = 'JSON-LD loaded with a static script tag (no-transcript)';
+    $viewName = '[Youtube] - Load using an html script tag';
     $transcriptHTML = file_get_contents('../includes/transcript.html');
 ?>
 <html lang="en">

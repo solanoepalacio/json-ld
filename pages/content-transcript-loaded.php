@@ -1,5 +1,5 @@
 <?php
-    $viewName = 'Content loaded con transcript';
+    $viewName = '[Youtube] - Append to the dom on dom-content-loaded event - with transcript';
     $transcriptHTML = file_get_contents('../includes/transcript.html');
 ?>
 <html lang="en">

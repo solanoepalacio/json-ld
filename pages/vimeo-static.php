@@ -1,5 +1,5 @@
 <?php
-    $viewName = 'Estatico con transcript'
+    $viewName = '[VIMEO] - Load statically';
 ?>
 <html lang="en">
 <head>
