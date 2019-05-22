@@ -15,7 +15,6 @@
     <?php include 'includes/video.php' ?>
 
     <script>
-
         function insertVideoHtmlTranscript () {
             console.log('Adding Html Transcript');
             const transcript = document.createElement('div');
@@ -32,11 +31,11 @@
                 script.setAttribute('type', 'application/ld+json');
                 script.innerHTML = data;
 
-                document.querySelector('head').appendChild(script);
+                insertVideoHtmlTranscript();
 
+                document.querySelector('head').appendChild(script);
                 console.info('JSON ld appended succesfully');
             });
-
 
         </script>
 </body>
