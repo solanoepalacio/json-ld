@@ -1,5 +1,5 @@
 <?php
-    $viewName = 'Estatico con transcript'
+    $viewName = 'Load the vwrap as is + JSON-LD'
 ?>
 <html lang="en">
 <head>

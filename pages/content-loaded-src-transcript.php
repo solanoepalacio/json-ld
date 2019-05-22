@@ -1,5 +1,7 @@
 <?php
-    $viewName = '[Youtube] - Load using an html script tag after dom-content-loaded event - with transcript'
+    $viewName = '[Youtube] - Load using an html script tag after dom-content-loaded event - with transcript';
+    $transcriptHTML = file_get_contents('../includes/transcript.html');
+
 ?>
 <html lang="en">
 <head>

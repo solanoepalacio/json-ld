@@ -1,5 +1,6 @@
 <?php
     $viewName = '[Youtube] - Loadafter 10 seconds with a timeout';
+    $transcriptHTML = file_get_contents('../includes/transcript.html');
 ?>
 <html lang="en">
 <head>
