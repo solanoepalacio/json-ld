@@ -26,6 +26,7 @@
         <li><a href="/pages/video-js-static.php">[VIDEO - JS] Load statically</a></li>
         <li><a href="/pages/video-js-static-transcript.php">[VIDEO - JS] Load statically (w/ transcript)</a></li>
 
+        <li><a href="/pages/vwrap-prod-static.php">VWRAP (production)</a></li>
         <li><a href="/pages/vwrap-prod-static.php">VWRAP (production) + Static JSON-LD</a></li>
         <li><a href="/pages/vwrap-staging.php">VWRAP (staging)</a></li>
     </ul>
