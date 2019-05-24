@@ -1,6 +1,6 @@
 <?php
     $viewName = '[VIMEO] - Load statically - with transcript';
-    $transcriptHTML = file_get_contents('../includes/transcript.html');
+    $transcriptHTML = file_get_contents('../assets/transcript.html');
 ?>
 <html lang="en">
 <head>

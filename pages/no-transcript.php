@@ -34,6 +34,6 @@
 <body>
     <?php include '../includes/header.php' ?>
     <?php include '../includes/menu.php' ?>
-    <?php include '../includes/video.php' ?>
+    <?php include '../includes/youtube-video.php' ?>
 </body>
 </html>

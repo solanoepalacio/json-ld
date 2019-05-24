@@ -1,6 +1,6 @@
 <?php
     $viewName = '[VIDEO - JS] Load statically - with transcript';
-    $transcriptHTML = file_get_contents('../includes/transcript.html');
+    $transcriptHTML = file_get_contents('../assets/transcript.html');
 ?>
 <html lang="en">
 <head>
@@ -8,13 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php include '../includes/title.php' ?>
-    <?php include '../includes/videojs-sources.php' ?>
+    <?php include '../includes/videojs-library.php' ?>
 </head>
 <body>
     <?php include '../includes/header.php' ?>
     <?php include '../includes/menu.php' ?>
     <?php include '../includes/videojs-video.php' ?>
-
     <script>
         (function insertVideoHtmlTranscript () {
             console.log('Adding Html Transcript');

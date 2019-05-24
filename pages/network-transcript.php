@@ -1,6 +1,6 @@
 <?php
     $viewName = '[Youtube] - Load over a network request - with transcript';
-    $transcriptHTML = file_get_contents('../includes/transcript.html');
+    $transcriptHTML = file_get_contents('../assets/transcript.html');
 ?>
 <html lang="en">
 <head>
@@ -12,7 +12,7 @@
 <body>
     <?php include '../includes/header.php' ?>
     <?php include '../includes/menu.php' ?>
-    <?php include '../includes/video.php' ?>
+    <?php include '../includes/youtube-video.php' ?>
 
     <script>
         function insertVideoHtmlTranscript () {
@@ -23,7 +23,7 @@
             body.insertBefore(transcript, body.lastChild);
         }
 
-        fetch('/assets/json-ld')
+        fetch('/assets/json-ld.jsonld')
             .then((response) => response.text())
             .then((data) => {
                 console.log('data', data);

@@ -1,6 +1,6 @@
 <?php
     $viewName = '[Youtube] - Append to the dom on dom-content-loaded event - with transcript';
-    $transcriptHTML = file_get_contents('../includes/transcript.html');
+    $transcriptHTML = file_get_contents('../assets/transcript.html');
 ?>
 <html lang="en">
 <head>
@@ -12,7 +12,7 @@
 <body>
     <?php include '../includes/header.php' ?>
     <?php include '../includes/menu.php' ?>
-    <?php include '../includes/video.php' ?>
+    <?php include '../includes/youtube-video.php' ?>
 
     <script >
             var structuredData = {
