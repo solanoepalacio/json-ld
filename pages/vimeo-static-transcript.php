@@ -16,7 +16,7 @@
           "description": "Walter is an animated short-film ramdomly picked by hand by solano for the purpose of this test",
           "contentUrl": "https://player.vimeo.com/video/335248138",
           "thumbnailUrl": "http://i3.ytimg.com/vi/WAbMnu55lys/hqdefault.jpg",
-          "interactionCount": "7751",
+          "interactionCount": "7751"
         }
     </script>
 </head>
